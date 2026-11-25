@@ -15,6 +15,8 @@ from .plots import save_plots
 from .report import print_spectrum, print_time_metrics, write_summary
 from .signals import autocorrelation, fractal_indices, ratio, spectrum
 
+# добавление оптимальной конфигурации
+# логгирования для пайплайна
 logger = logging.getLogger(__name__)
 
 DATA_DIR = Path("hrv/data")
